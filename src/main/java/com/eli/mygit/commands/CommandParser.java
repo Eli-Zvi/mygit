@@ -43,7 +43,7 @@ public class CommandParser {
             case "clean":
                 break;
             default:
-                System.out.println("git: " + command + "is not a git command. See 'git --help");
+                System.out.println("git: '" + command + "' is not a git command. See 'git --help'");
         }
 
         System.out.println(command);
